@@ -16,7 +16,7 @@ def Links () -> rx.Component :
                      "/iconos/github.svg"),
         Links_button("Instagram", 
                      "Mis redes donde podes conocerme un poco mas", 
-                     "https://www.instagram.com/",
+                     "https://www.instagram.com/yako_hernandez/",
                      "/iconos/instagram.svg"),
         Links_button("Twitter", 
                      "Revisa mis actualizaciones diarias", 

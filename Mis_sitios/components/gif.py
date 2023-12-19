@@ -7,8 +7,9 @@ def gif_imagen (image:str) ->  rx.Component:
         margin = Tamaño.DEFAULT.value,   
         height = Tamaño.VERYBIG.value,
         src=image,
-        
         width ="100%",
         align_items= "start",
+        border_radius = "10px",
+        border = "10px"
          
     )

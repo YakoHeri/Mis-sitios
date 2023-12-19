@@ -13,13 +13,13 @@ export default function Component() {
   return (
     <Fragment>
   <Fragment_fd0e7cb8f9fb4669a6805377d925fba0/>
-  <Box>
+  <Box sx={{"fontFamily": "Comfortaa", "fontWeight": ["300"]}}>
   <HStack sx={{"position": "sticky", "backgroundColor": ["#333333"], "paddingX": ["0.7em"], "paddingY": ["0.7em"], "zIndex": "999", "top": "0"}}>
-  <Box sx={{"styles": "Comfortaa-medium"}}>
-  <Text as={`span`} sx={{"color": ["#3498DB"], "fontFamily": "Comfortaa-medium"}}>
+  <Box sx={{"styles": "Comfortaa", "fontWeight": ["300"], "fontFamily": "Comfortaa"}}>
+  <Text as={`span`} sx={{"color": ["#3498DB"]}}>
   {`Yako`}
 </Text>
-  <Text as={`span`} sx={{"color": ["#2977A8"], "fontFamily": "Comfortaa-medium"}}>
+  <Text as={`span`} sx={{"color": ["#2977A8"]}}>
   {`dev`}
 </Text>
 </Box>
@@ -50,22 +50,22 @@ export default function Component() {
 </VStack>
 </HStack>
   <Flex sx={{"width": "100%", "color": "#FFFFFF", "fontSize": "0.85em"}}>
-  <Box sx={{"fontSize": ["1em"], "color": "#FFFFFF"}}>
-  <Text as={`span`} sx={{"fontWeight": "bold", "color": ["#3498DB"], "fontFamily": "Comfortaa-medium"}}>
+  <Box sx={{"fontSize": ["1em"], "color": "#FFFFFF", "fontFamily": "Comfortaa", "fontWeight": ["300"]}}>
+  <Text as={`span`} sx={{"fontWeight": "bold", "color": ["#3498DB"]}}>
   {`1`}
 </Text>
   {` Año de experiencia`}
 </Box>
   <Spacer/>
-  <Box sx={{"fontSize": ["1em"], "color": "#FFFFFF"}}>
-  <Text as={`span`} sx={{"fontWeight": "bold", "color": ["#3498DB"], "fontFamily": "Comfortaa-medium"}}>
+  <Box sx={{"fontSize": ["1em"], "color": "#FFFFFF", "fontFamily": "Comfortaa", "fontWeight": ["300"]}}>
+  <Text as={`span`} sx={{"fontWeight": "bold", "color": ["#3498DB"]}}>
   {`< >`}
 </Text>
   {` En constante capacitación`}
 </Box>
   <Spacer/>
-  <Box sx={{"fontSize": ["1em"], "color": "#FFFFFF"}}>
-  <Text as={`span`} sx={{"fontWeight": "bold", "color": ["#3498DB"], "fontFamily": "Comfortaa-medium"}}>
+  <Box sx={{"fontSize": ["1em"], "color": "#FFFFFF", "fontFamily": "Comfortaa", "fontWeight": ["300"]}}>
+  <Text as={`span`} sx={{"fontWeight": "bold", "color": ["#3498DB"]}}>
   {`@`}
 </Text>
   {`  Abierto a nuevos retos`}
@@ -90,10 +90,10 @@ export default function Component() {
   <HStack>
   <ChakraImage src={`/iconos/linkedin.svg`} sx={{"width": ["2em"], "height": ["2em"], "margin": ["0.7em"]}}/>
   <VStack alignItems={`start`} spacing={`0.5em`} sx={{"margin": ["0px !important"]}}>
-  <Text sx={{"fontSize": ["1em"], "color": "#FFFFFF", "fontFamily": "Poppins-Bold"}}>
+  <Text sx={{"fontSize": ["1em"], "color": "#FFFFFF", "fontFamily": "Poppins", "fontWeight": "500"}}>
   {`Linkedin`}
 </Text>
-  <Text sx={{"fontSize": "0.85em", "color": "#00000", "fontFamily": "Poppins-light"}}>
+  <Text sx={{"fontSize": "0.85em", "color": "#00000", "fontFamily": "Poppins", "fontWeight": ["300"]}}>
   {`Te invito a ver mis estudios y certificados `}
 </Text>
 </VStack>
@@ -105,25 +105,25 @@ export default function Component() {
   <HStack>
   <ChakraImage src={`/iconos/github.svg`} sx={{"width": ["2em"], "height": ["2em"], "margin": ["0.7em"]}}/>
   <VStack alignItems={`start`} spacing={`0.5em`} sx={{"margin": ["0px !important"]}}>
-  <Text sx={{"fontSize": ["1em"], "color": "#FFFFFF", "fontFamily": "Poppins-Bold"}}>
+  <Text sx={{"fontSize": ["1em"], "color": "#FFFFFF", "fontFamily": "Poppins", "fontWeight": "500"}}>
   {`Github`}
 </Text>
-  <Text sx={{"fontSize": "0.85em", "color": "#00000", "fontFamily": "Poppins-light"}}>
+  <Text sx={{"fontSize": "0.85em", "color": "#00000", "fontFamily": "Poppins", "fontWeight": ["300"]}}>
   {`Podes revisar mis proyectos`}
 </Text>
 </VStack>
 </HStack>
 </Button>
 </Link>
-  <Link as={NextLink} href={`https://www.instagram.com/`} isExternal={true} sx={{"target": "_blank", "width": "100%", "textDecoration": "none", "_hover": {}}}>
+  <Link as={NextLink} href={`https://www.instagram.com/yako_hernandez/`} isExternal={true} sx={{"target": "_blank", "width": "100%", "textDecoration": "none", "_hover": {}}}>
   <Button sx={{"width": "100%", "height": "100%", "display": "block", "padding": ["0.5em"], "borderRadius": ["2em"], "backgroundColor": ["#333333"], "color": "#CCCCCC", "_hover": {"backgroundColor": ["#05183c"]}}}>
   <HStack>
   <ChakraImage src={`/iconos/instagram.svg`} sx={{"width": ["2em"], "height": ["2em"], "margin": ["0.7em"]}}/>
   <VStack alignItems={`start`} spacing={`0.5em`} sx={{"margin": ["0px !important"]}}>
-  <Text sx={{"fontSize": ["1em"], "color": "#FFFFFF", "fontFamily": "Poppins-Bold"}}>
+  <Text sx={{"fontSize": ["1em"], "color": "#FFFFFF", "fontFamily": "Poppins", "fontWeight": "500"}}>
   {`Instagram`}
 </Text>
-  <Text sx={{"fontSize": "0.85em", "color": "#00000", "fontFamily": "Poppins-light"}}>
+  <Text sx={{"fontSize": "0.85em", "color": "#00000", "fontFamily": "Poppins", "fontWeight": ["300"]}}>
   {`Mis redes donde podes conocerme un poco mas`}
 </Text>
 </VStack>
@@ -135,10 +135,10 @@ export default function Component() {
   <HStack>
   <ChakraImage src={`/iconos/twitter.svg`} sx={{"width": ["2em"], "height": ["2em"], "margin": ["0.7em"]}}/>
   <VStack alignItems={`start`} spacing={`0.5em`} sx={{"margin": ["0px !important"]}}>
-  <Text sx={{"fontSize": ["1em"], "color": "#FFFFFF", "fontFamily": "Poppins-Bold"}}>
+  <Text sx={{"fontSize": ["1em"], "color": "#FFFFFF", "fontFamily": "Poppins", "fontWeight": "500"}}>
   {`Twitter`}
 </Text>
-  <Text sx={{"fontSize": "0.85em", "color": "#00000", "fontFamily": "Poppins-light"}}>
+  <Text sx={{"fontSize": "0.85em", "color": "#00000", "fontFamily": "Poppins", "fontWeight": ["300"]}}>
   {`Revisa mis actualizaciones diarias`}
 </Text>
 </VStack>
@@ -153,10 +153,10 @@ export default function Component() {
   <HStack>
   <ChakraImage src={`/iconos/llamar.svg`} sx={{"width": ["2em"], "height": ["2em"], "margin": ["0.7em"]}}/>
   <VStack alignItems={`start`} spacing={`0.5em`} sx={{"margin": ["0px !important"]}}>
-  <Text sx={{"fontSize": ["1em"], "color": "#FFFFFF", "fontFamily": "Poppins-Bold"}}>
+  <Text sx={{"fontSize": ["1em"], "color": "#FFFFFF", "fontFamily": "Poppins", "fontWeight": "500"}}>
   {`Contacto`}
 </Text>
-  <Text sx={{"fontSize": "0.85em", "color": "#00000", "fontFamily": "Poppins-light"}}>
+  <Text sx={{"fontSize": "0.85em", "color": "#00000", "fontFamily": "Poppins", "fontWeight": ["300"]}}>
   {`Establece contacto conmigo de manera rapida`}
 </Text>
 </VStack>
@@ -168,10 +168,10 @@ export default function Component() {
   <HStack>
   <ChakraImage src={`/iconos/correo.svg`} sx={{"width": ["2em"], "height": ["2em"], "margin": ["0.7em"]}}/>
   <VStack alignItems={`start`} spacing={`0.5em`} sx={{"margin": ["0px !important"]}}>
-  <Text sx={{"fontSize": ["1em"], "color": "#FFFFFF", "fontFamily": "Poppins-Bold"}}>
+  <Text sx={{"fontSize": ["1em"], "color": "#FFFFFF", "fontFamily": "Poppins", "fontWeight": "500"}}>
   {`Email`}
 </Text>
-  <Text sx={{"fontSize": "0.85em", "color": "#00000", "fontFamily": "Poppins-light"}}>
+  <Text sx={{"fontSize": "0.85em", "color": "#00000", "fontFamily": "Poppins", "fontWeight": ["300"]}}>
   {`Enviame un correo`}
 </Text>
 </VStack>
@@ -183,10 +183,10 @@ export default function Component() {
   <HStack>
   <ChakraImage src={`/iconos/whatsapp.svg`} sx={{"width": ["2em"], "height": ["2em"], "margin": ["0.7em"]}}/>
   <VStack alignItems={`start`} spacing={`0.5em`} sx={{"margin": ["0px !important"]}}>
-  <Text sx={{"fontSize": ["1em"], "color": "#FFFFFF", "fontFamily": "Poppins-Bold"}}>
+  <Text sx={{"fontSize": ["1em"], "color": "#FFFFFF", "fontFamily": "Poppins", "fontWeight": "500"}}>
   {`Whatsapp`}
 </Text>
-  <Text sx={{"fontSize": "0.85em", "color": "#00000", "fontFamily": "Poppins-light"}}>
+  <Text sx={{"fontSize": "0.85em", "color": "#00000", "fontFamily": "Poppins", "fontWeight": ["300"]}}>
   {`Enviame un mensaje ante cualquier consulta`}
 </Text>
 </VStack>
@@ -194,9 +194,9 @@ export default function Component() {
 </Button>
 </Link>
 </VStack>
-  <HStack spacing={`7em`}>
-  <ChakraImage src={`/giphy.GIF`} sx={{"margin": ["1em"], "height": "8em", "width": "100%", "alignItems": "start"}}/>
-  <ChakraImage src={`/hola.GIF`} sx={{"margin": ["1em"], "height": "8em", "width": "100%", "alignItems": "start"}}/>
+  <HStack spacing={`8em`} sx={{"borderRadius": "3px"}}>
+  <ChakraImage src={`/giphy.GIF`} sx={{"margin": ["1em"], "height": "8em", "width": "100%", "alignItems": "start", "borderRadius": "10px", "border": "10px"}}/>
+  <ChakraImage src={`/holamundo.GIF`} sx={{"margin": ["1em"], "height": "8em", "width": "100%", "alignItems": "start", "borderRadius": "10px", "border": "10px"}}/>
 </HStack>
 </VStack>
 </Center>

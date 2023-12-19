@@ -9,8 +9,9 @@ def gif () ->rx.Component:
             "/giphy.GIF"
         ),
         gif_imagen(
-            "/hola.GIF",
+            "/holamundo.GIF",
             
         ),
-        spacing= "7em",
+        spacing= "8em",
+        border_radius = "3px"
     )
