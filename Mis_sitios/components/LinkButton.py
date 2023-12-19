@@ -1,19 +1,22 @@
 import reflex as rx
 import Mis_sitios.styles.styles as styles
 
-def Links_button (titulo:str, cuerpo:str, url= str) -> rx.Component :
+def Links_button (titulo:str, cuerpo:str, url= str, image= str) -> rx.Component :
     return rx.link(
         rx.button(
             rx.hstack(
-                rx.icon(
-                    tag = "arrow_forward",
+                rx.image(
+                    src= image,
                     width = styles.Tamaño.BIG.value,
-                    height = styles.Tamaño.BIG.value
+                    height = styles.Tamaño.BIG.value,
+                    margin= styles.Tamaño.MEDIUM.value
                 ),
                 rx.vstack(
                  rx.text (titulo, style= styles.estilo_titulo_boton),
                  rx.text (cuerpo, style=styles.estilo_cuerpo_boton),
-                 align_items= "start"
+                 spacing= "0.5em",
+                 align_items= "start",
+                 margin= styles.Tamaño.ZERO.value
                 ),
                
             )

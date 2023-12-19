@@ -3,17 +3,26 @@ from Mis_sitios.components.link_icon import link_icon
 from Mis_sitios.components.informacion import info_text
 from Mis_sitios.styles.styles import Tamaño as Tamaño
 from Mis_sitios.styles.colores import colorTexto as colorTexto
+from Mis_sitios.styles.colores import colores as colores
+
 
 def header () -> rx.Component :
     return rx.vstack(
         rx.hstack(
-        rx.avatar(name="Yako Hernandez Iraguen", size="xl"),
+        rx.avatar(
+            name="Yako Hernandez Iraguen",
+            size="xl",
+            src= "avatar.png",
+            color = colorTexto.BODY.value,
+            bg = colores.CONTENIDO.value,
+            padding= "2px",
+            border= "4px",
+            border_color = colores.PRIMARIO.value
+                  ),
             rx.vstack(
                 rx.heading (
                     "Yako Hernandez Iraguen",
-                    size="lg",
-                    color= colorTexto.Header.value,
-                    margin_top= Tamaño.ZERO.value,
+                    size="lg"
                     ),
                 rx.text (
                     "@YakoDev",
@@ -22,24 +31,31 @@ def header () -> rx.Component :
 
                     ),
                     rx.hstack(
-                        link_icon ("https://twitter.com/IragYako"),
-                        link_icon ("https://www.instagram.com/yako_hernandez/"),
-                        link_icon ("https://github.com/YakoHeri"),
+                        link_icon ("https://twitter.com/IragYako",
+                                   "/iconos/twitter.svg"),
+                        link_icon ("https://www.instagram.com/yako_hernandez/",
+                                   "/iconos/instagram.svg"),
+                        link_icon ("https://github.com/YakoHeri",
+                                   "/iconos/github.svg"),
+                        spacing="1em",
+                        size = Tamaño.BIG.value,
                     ),
                     align_items= "start", 
                     width = "100%" ,  
-                    spacing="1em"
+                    
+                    
             ),
             
         ),
          rx.flex (
                 info_text("1", "Año de experiencia"),
                 rx.spacer(),
-                info_text("<>", "En constante capacitación"),
+                info_text("< >", "En constante capacitación"),
                 rx.spacer(),
                 info_text("@", " Abierto a nuevos retos"),
                 width= "100%",
-                color = colorTexto.Header.value
+                color = colorTexto.Header.value,
+                font_size= Tamaño.MEDIUM2.value
             ),
 
           rx.text (f""" ¡Bienvenidos a mi pagina! Soy un apasionado desarrollador argentino de 23 años 
@@ -49,7 +65,9 @@ def header () -> rx.Component :
                     Aquí encontrarás una muestra de mis trabajos y proyectos. 
                     Explora los enlaces a continuación para sumergirte en mi mundo de desarrollo y 
                     descubrir cómo puedo aportar valor a tu equipo o proyecto.""",
-                    color = colorTexto.BODY.value),
+                    color = colorTexto.BODY.value,
+                    font_size= Tamaño.MEDIUM2.value  
+                    ),
           spacing= "2em",
           align_items= "start",
           width = "100%" ,

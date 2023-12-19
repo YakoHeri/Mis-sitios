@@ -9,7 +9,7 @@ def navBar () -> rx.Component:
         rx.box(
             rx.span ("Yako", color =colores.PRIMARIO.value),
             rx.span ("dev", color= colores.TERCER.value),
-            styles= styles.navbar_title_style
+            styles= styles.fuente.LOGO.value
         ),
         position= "sticky",
         background_color = colores.CONTENIDO.value,
