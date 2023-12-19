@@ -24,6 +24,7 @@ def index () -> rx.Component:
         ),    
         footer()
     ) 
+
  
 
 app = rx.App(
