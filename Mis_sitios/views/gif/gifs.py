@@ -7,11 +7,11 @@ def gif () ->rx.Component:
     return  rx.box(
         rx.hstack (
             gif_imagen(
-            "/giphy.GIF",
+            "back.PNG",
             "logo de programar"
         ),
              gif_imagen(
-            "/holamundo.GIF",
+            "/argentina1.JPG",
             "logo de argentina"
             
         ),
