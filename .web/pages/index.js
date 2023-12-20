@@ -38,13 +38,13 @@ export default function Component() {
 </Text>
   <HStack spacing={`1em`} sx={{"size": ["2em"]}}>
   <Link as={NextLink} href={`https://twitter.com/IragYako`} isExternal={true} sx={{"size": ["2em"], "textDecoration": "none", "_hover": {}}}>
-  <ChakraImage src={`/iconos/twitter.svg`}/>
+  <ChakraImage alt={`Twitter`} src={`/iconos/twitter.svg`} sx={{"width": ["1.3em"]}}/>
 </Link>
   <Link as={NextLink} href={`https://www.instagram.com/yako_hernandez/`} isExternal={true} sx={{"size": ["2em"], "textDecoration": "none", "_hover": {}}}>
-  <ChakraImage src={`/iconos/instagram.svg`}/>
+  <ChakraImage alt={`Instagram`} src={`/iconos/instagram.svg`} sx={{"width": ["1.3em"]}}/>
 </Link>
   <Link as={NextLink} href={`https://github.com/YakoHeri`} isExternal={true} sx={{"size": ["2em"], "textDecoration": "none", "_hover": {}}}>
-  <ChakraImage src={`/iconos/github.svg`}/>
+  <ChakraImage alt={`github`} src={`/iconos/github.svg`} sx={{"width": ["1.3em"]}}/>
 </Link>
 </HStack>
 </VStack>
@@ -81,15 +81,15 @@ export default function Component() {
                     descubrir cómo puedo aportar valor a tu equipo o proyecto.`}
 </Text>
 </VStack>
-  <VStack spacing={`1em`} sx={{"width": "100%"}}>
+  <VStack sx={{"width": "100%"}}>
   <Heading size={`md`} sx={{"width": "100%", "paddingTop": ["1em"], "size": "lg", "color": "#FFFFFF"}}>
   {`Comunidad`}
 </Heading>
-  <Link as={NextLink} href={`https://www.linkedin.com/feed/`} isExternal={true} sx={{"target": "_blank", "width": "100%", "textDecoration": "none", "_hover": {}}}>
-  <Button sx={{"width": "100%", "height": "100%", "display": "block", "padding": ["0.5em"], "borderRadius": ["2em"], "backgroundColor": ["#333333"], "color": "#CCCCCC", "_hover": {"backgroundColor": ["#05183c"]}}}>
-  <HStack>
-  <ChakraImage src={`/iconos/linkedin.svg`} sx={{"width": ["2em"], "height": ["2em"], "margin": ["0.7em"]}}/>
-  <VStack alignItems={`start`} spacing={`0.5em`} sx={{"margin": ["0px !important"]}}>
+  <Link as={NextLink} href={`https://www.linkedin.com/feed/`} isExternal={true} sx={{"size": ["1em"], "target": "_blank", "width": "100%", "textDecoration": "none", "_hover": {}}}>
+  <Button sx={{"width": "100%", "height": "100%", "padding": ["0.5em"], "borderRadius": ["2em"], "backgroundColor": ["#333333"], "color": "#CCCCCC", "whiteSpace": "normal", "textAlign": "start", "alignItems": "start", "_hover": {"backgroundColor": ["#05183c"]}}}>
+  <HStack sx={{"width": "100%"}}>
+  <ChakraImage alt={`Linkedin`} src={`/iconos/linkedin.svg`} sx={{"width": ["2em"], "height": ["2em"], "margin": ["0.7em"]}}/>
+  <VStack alignItems={`start`} spacing={`0.5em`} sx={{"margin": ["0px !important"], "paddingY": ["0.5em"], "paddingRight": ["0.5em"]}}>
   <Text sx={{"fontSize": ["1em"], "color": "#FFFFFF", "fontFamily": "Poppins", "fontWeight": "500"}}>
   {`Linkedin`}
 </Text>
@@ -100,11 +100,11 @@ export default function Component() {
 </HStack>
 </Button>
 </Link>
-  <Link as={NextLink} href={`https://github.com/YakoHeri`} isExternal={true} sx={{"target": "_blank", "width": "100%", "textDecoration": "none", "_hover": {}}}>
-  <Button sx={{"width": "100%", "height": "100%", "display": "block", "padding": ["0.5em"], "borderRadius": ["2em"], "backgroundColor": ["#333333"], "color": "#CCCCCC", "_hover": {"backgroundColor": ["#05183c"]}}}>
-  <HStack>
-  <ChakraImage src={`/iconos/github.svg`} sx={{"width": ["2em"], "height": ["2em"], "margin": ["0.7em"]}}/>
-  <VStack alignItems={`start`} spacing={`0.5em`} sx={{"margin": ["0px !important"]}}>
+  <Link as={NextLink} href={`https://github.com/YakoHeri`} isExternal={true} sx={{"size": ["1em"], "target": "_blank", "width": "100%", "textDecoration": "none", "_hover": {}}}>
+  <Button sx={{"width": "100%", "height": "100%", "padding": ["0.5em"], "borderRadius": ["2em"], "backgroundColor": ["#333333"], "color": "#CCCCCC", "whiteSpace": "normal", "textAlign": "start", "alignItems": "start", "_hover": {"backgroundColor": ["#05183c"]}}}>
+  <HStack sx={{"width": "100%"}}>
+  <ChakraImage alt={`Github`} src={`/iconos/github.svg`} sx={{"width": ["2em"], "height": ["2em"], "margin": ["0.7em"]}}/>
+  <VStack alignItems={`start`} spacing={`0.5em`} sx={{"margin": ["0px !important"], "paddingY": ["0.5em"], "paddingRight": ["0.5em"]}}>
   <Text sx={{"fontSize": ["1em"], "color": "#FFFFFF", "fontFamily": "Poppins", "fontWeight": "500"}}>
   {`Github`}
 </Text>
@@ -115,11 +115,11 @@ export default function Component() {
 </HStack>
 </Button>
 </Link>
-  <Link as={NextLink} href={`https://www.instagram.com/yako_hernandez/`} isExternal={true} sx={{"target": "_blank", "width": "100%", "textDecoration": "none", "_hover": {}}}>
-  <Button sx={{"width": "100%", "height": "100%", "display": "block", "padding": ["0.5em"], "borderRadius": ["2em"], "backgroundColor": ["#333333"], "color": "#CCCCCC", "_hover": {"backgroundColor": ["#05183c"]}}}>
-  <HStack>
-  <ChakraImage src={`/iconos/instagram.svg`} sx={{"width": ["2em"], "height": ["2em"], "margin": ["0.7em"]}}/>
-  <VStack alignItems={`start`} spacing={`0.5em`} sx={{"margin": ["0px !important"]}}>
+  <Link as={NextLink} href={`https://www.instagram.com/yako_hernandez/`} isExternal={true} sx={{"size": ["1em"], "target": "_blank", "width": "100%", "textDecoration": "none", "_hover": {}}}>
+  <Button sx={{"width": "100%", "height": "100%", "padding": ["0.5em"], "borderRadius": ["2em"], "backgroundColor": ["#333333"], "color": "#CCCCCC", "whiteSpace": "normal", "textAlign": "start", "alignItems": "start", "_hover": {"backgroundColor": ["#05183c"]}}}>
+  <HStack sx={{"width": "100%"}}>
+  <ChakraImage alt={`Instagram`} src={`/iconos/instagram.svg`} sx={{"width": ["2em"], "height": ["2em"], "margin": ["0.7em"]}}/>
+  <VStack alignItems={`start`} spacing={`0.5em`} sx={{"margin": ["0px !important"], "paddingY": ["0.5em"], "paddingRight": ["0.5em"]}}>
   <Text sx={{"fontSize": ["1em"], "color": "#FFFFFF", "fontFamily": "Poppins", "fontWeight": "500"}}>
   {`Instagram`}
 </Text>
@@ -130,11 +130,11 @@ export default function Component() {
 </HStack>
 </Button>
 </Link>
-  <Link as={NextLink} href={`https://twitter.com/IragYako`} isExternal={true} sx={{"target": "_blank", "width": "100%", "textDecoration": "none", "_hover": {}}}>
-  <Button sx={{"width": "100%", "height": "100%", "display": "block", "padding": ["0.5em"], "borderRadius": ["2em"], "backgroundColor": ["#333333"], "color": "#CCCCCC", "_hover": {"backgroundColor": ["#05183c"]}}}>
-  <HStack>
-  <ChakraImage src={`/iconos/twitter.svg`} sx={{"width": ["2em"], "height": ["2em"], "margin": ["0.7em"]}}/>
-  <VStack alignItems={`start`} spacing={`0.5em`} sx={{"margin": ["0px !important"]}}>
+  <Link as={NextLink} href={`https://twitter.com/IragYako`} isExternal={true} sx={{"size": ["1em"], "target": "_blank", "width": "100%", "textDecoration": "none", "_hover": {}}}>
+  <Button sx={{"width": "100%", "height": "100%", "padding": ["0.5em"], "borderRadius": ["2em"], "backgroundColor": ["#333333"], "color": "#CCCCCC", "whiteSpace": "normal", "textAlign": "start", "alignItems": "start", "_hover": {"backgroundColor": ["#05183c"]}}}>
+  <HStack sx={{"width": "100%"}}>
+  <ChakraImage alt={`Twitter`} src={`/iconos/twitter.svg`} sx={{"width": ["2em"], "height": ["2em"], "margin": ["0.7em"]}}/>
+  <VStack alignItems={`start`} spacing={`0.5em`} sx={{"margin": ["0px !important"], "paddingY": ["0.5em"], "paddingRight": ["0.5em"]}}>
   <Text sx={{"fontSize": ["1em"], "color": "#FFFFFF", "fontFamily": "Poppins", "fontWeight": "500"}}>
   {`Twitter`}
 </Text>
@@ -148,11 +148,11 @@ export default function Component() {
   <Heading size={`md`} sx={{"width": "100%", "paddingTop": ["1em"], "size": "lg", "color": "#FFFFFF"}}>
   {`Contacto`}
 </Heading>
-  <Link as={NextLink} href={`https://wa.me/2314615853`} isExternal={true} sx={{"target": "_blank", "width": "100%", "textDecoration": "none", "_hover": {}}}>
-  <Button sx={{"width": "100%", "height": "100%", "display": "block", "padding": ["0.5em"], "borderRadius": ["2em"], "backgroundColor": ["#333333"], "color": "#CCCCCC", "_hover": {"backgroundColor": ["#05183c"]}}}>
-  <HStack>
-  <ChakraImage src={`/iconos/llamar.svg`} sx={{"width": ["2em"], "height": ["2em"], "margin": ["0.7em"]}}/>
-  <VStack alignItems={`start`} spacing={`0.5em`} sx={{"margin": ["0px !important"]}}>
+  <Link as={NextLink} href={`https://wa.me/2314615853`} isExternal={true} sx={{"size": ["1em"], "target": "_blank", "width": "100%", "textDecoration": "none", "_hover": {}}}>
+  <Button sx={{"width": "100%", "height": "100%", "padding": ["0.5em"], "borderRadius": ["2em"], "backgroundColor": ["#333333"], "color": "#CCCCCC", "whiteSpace": "normal", "textAlign": "start", "alignItems": "start", "_hover": {"backgroundColor": ["#05183c"]}}}>
+  <HStack sx={{"width": "100%"}}>
+  <ChakraImage alt={`Contacto`} src={`/iconos/llamar.svg`} sx={{"width": ["2em"], "height": ["2em"], "margin": ["0.7em"]}}/>
+  <VStack alignItems={`start`} spacing={`0.5em`} sx={{"margin": ["0px !important"], "paddingY": ["0.5em"], "paddingRight": ["0.5em"]}}>
   <Text sx={{"fontSize": ["1em"], "color": "#FFFFFF", "fontFamily": "Poppins", "fontWeight": "500"}}>
   {`Contacto`}
 </Text>
@@ -163,11 +163,11 @@ export default function Component() {
 </HStack>
 </Button>
 </Link>
-  <Link as={NextLink} href={`yakoirag@gmail.com`} isExternal={true} sx={{"target": "_blank", "width": "100%", "textDecoration": "none", "_hover": {}}}>
-  <Button sx={{"width": "100%", "height": "100%", "display": "block", "padding": ["0.5em"], "borderRadius": ["2em"], "backgroundColor": ["#333333"], "color": "#CCCCCC", "_hover": {"backgroundColor": ["#05183c"]}}}>
-  <HStack>
-  <ChakraImage src={`/iconos/correo.svg`} sx={{"width": ["2em"], "height": ["2em"], "margin": ["0.7em"]}}/>
-  <VStack alignItems={`start`} spacing={`0.5em`} sx={{"margin": ["0px !important"]}}>
+  <Link as={NextLink} href={`yakoirag@gmail.com`} isExternal={true} sx={{"size": ["1em"], "target": "_blank", "width": "100%", "textDecoration": "none", "_hover": {}}}>
+  <Button sx={{"width": "100%", "height": "100%", "padding": ["0.5em"], "borderRadius": ["2em"], "backgroundColor": ["#333333"], "color": "#CCCCCC", "whiteSpace": "normal", "textAlign": "start", "alignItems": "start", "_hover": {"backgroundColor": ["#05183c"]}}}>
+  <HStack sx={{"width": "100%"}}>
+  <ChakraImage alt={`Email`} src={`/iconos/correo.svg`} sx={{"width": ["2em"], "height": ["2em"], "margin": ["0.7em"]}}/>
+  <VStack alignItems={`start`} spacing={`0.5em`} sx={{"margin": ["0px !important"], "paddingY": ["0.5em"], "paddingRight": ["0.5em"]}}>
   <Text sx={{"fontSize": ["1em"], "color": "#FFFFFF", "fontFamily": "Poppins", "fontWeight": "500"}}>
   {`Email`}
 </Text>
@@ -178,11 +178,11 @@ export default function Component() {
 </HStack>
 </Button>
 </Link>
-  <Link as={NextLink} href={`https://wa.me/2314615853`} isExternal={true} sx={{"target": "_blank", "width": "100%", "textDecoration": "none", "_hover": {}}}>
-  <Button sx={{"width": "100%", "height": "100%", "display": "block", "padding": ["0.5em"], "borderRadius": ["2em"], "backgroundColor": ["#333333"], "color": "#CCCCCC", "_hover": {"backgroundColor": ["#05183c"]}}}>
-  <HStack>
-  <ChakraImage src={`/iconos/whatsapp.svg`} sx={{"width": ["2em"], "height": ["2em"], "margin": ["0.7em"]}}/>
-  <VStack alignItems={`start`} spacing={`0.5em`} sx={{"margin": ["0px !important"]}}>
+  <Link as={NextLink} href={`https://wa.me/2314615853`} isExternal={true} sx={{"size": ["1em"], "target": "_blank", "width": "100%", "textDecoration": "none", "_hover": {}}}>
+  <Button sx={{"width": "100%", "height": "100%", "padding": ["0.5em"], "borderRadius": ["2em"], "backgroundColor": ["#333333"], "color": "#CCCCCC", "whiteSpace": "normal", "textAlign": "start", "alignItems": "start", "_hover": {"backgroundColor": ["#05183c"]}}}>
+  <HStack sx={{"width": "100%"}}>
+  <ChakraImage alt={`Whatsapp`} src={`/iconos/whatsapp.svg`} sx={{"width": ["2em"], "height": ["2em"], "margin": ["0.7em"]}}/>
+  <VStack alignItems={`start`} spacing={`0.5em`} sx={{"margin": ["0px !important"], "paddingY": ["0.5em"], "paddingRight": ["0.5em"]}}>
   <Text sx={{"fontSize": ["1em"], "color": "#FFFFFF", "fontFamily": "Poppins", "fontWeight": "500"}}>
   {`Whatsapp`}
 </Text>
@@ -194,14 +194,16 @@ export default function Component() {
 </Button>
 </Link>
 </VStack>
-  <HStack spacing={`8em`} sx={{"borderRadius": "3px"}}>
-  <ChakraImage src={`/giphy.GIF`} sx={{"margin": ["1em"], "height": "8em", "width": "100%", "alignItems": "start", "borderRadius": "10px", "border": "10px"}}/>
-  <ChakraImage src={`/holamundo.GIF`} sx={{"margin": ["1em"], "height": "8em", "width": "100%", "alignItems": "start", "borderRadius": "10px", "border": "10px"}}/>
+  <Box sx={{"maxwidth": "600px", "spacing": "8em", "borderRadius": "3px", "width": "100%", "fontFamily": "Comfortaa", "fontWeight": ["300"]}}>
+  <HStack sx={{"paddingRight": ["0.5em"]}}>
+  <ChakraImage alt={`logo de programar`} src={`/giphy.GIF`} sx={{"margin": ["1em"], "height": "8em", "width": "100%", "alignItems": "start", "borderRadius": "10px", "border": "10px"}}/>
+  <ChakraImage alt={`logo de argentina`} src={`/holamundo.GIF`} sx={{"margin": ["1em"], "height": "8em", "width": "100%", "alignItems": "start", "borderRadius": "10px", "border": "10px"}}/>
 </HStack>
+</Box>
 </VStack>
 </Center>
-  <VStack sx={{"marginBottom": ["2em"], "paddingBottom": ["2em"], "fontSize": ["0.7em"], "color": "#999999", "width": "100%"}}>
-  <ChakraImage src={`/logo.png`} sx={{"height": "8em"}}/>
+  <VStack sx={{"marginBottom": ["2em"], "paddingBottom": ["2em"], "paddingY": ["2em"], "fontSize": ["0.7em"], "color": "#999999", "width": "100%"}}>
+  <ChakraImage alt={`logoipo de Yakodev.`} src={`/logo.png`} sx={{"height": "8em", "weight": "8em"}}/>
   <Text>
   {`2022-2023 YAKODEV BY YAKO HERNANDEZ IRAGUEN`}
 </Text>

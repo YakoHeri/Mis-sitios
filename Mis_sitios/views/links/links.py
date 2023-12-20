@@ -36,10 +36,10 @@ def Links () -> rx.Component :
                      "Enviame un mensaje ante cualquier consulta", 
                      "https://wa.me/2314615853" ,
                      "/iconos/whatsapp.svg"),
-        
-        
+
+            
         width = "100%",
-        spacing = "1em"
+       
 
     )
 

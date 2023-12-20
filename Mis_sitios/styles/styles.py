@@ -28,11 +28,13 @@ BASE_STYLE = {
     rx.Button: {
         "width" : "100%",
         "height" : "100%",
-        "display" : "block",
         "padding" : Tamaño.SMALL.value ,
         "border_radius" : Tamaño.BIG.value ,
-         "background_color" : colores.CONTENIDO.value,
+        "background_color" : colores.CONTENIDO.value,
         "color" : colorTexto.BODY.value,
+        "white_space" : "normal",
+        "text_align" : "start", 
+        "align_items" : "start",
         "_hover" : {
             "background_color" : colores.SECUNDARIO.value,
             }

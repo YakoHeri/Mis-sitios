@@ -7,8 +7,8 @@ from Mis_sitios.views.gif.gifs import gif
 import Mis_sitios.styles.styles as styles
 from Mis_sitios.styles.styles import  Tamaño as Tamaño
 
-class State(rx.State):
-    pass
+#class State(rx.State):
+  #  pass
 
 def index () -> rx.Component:
     return rx.box(
