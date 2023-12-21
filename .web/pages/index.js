@@ -196,8 +196,8 @@ export default function Component() {
 </VStack>
   <Box sx={{"maxwidth": "600px", "spacing": "8em", "borderRadius": "3px", "width": "100%", "fontFamily": "Comfortaa", "fontWeight": ["300"]}}>
   <HStack sx={{"paddingRight": ["0.5em"]}}>
-  <ChakraImage alt={`logo de programar`} src={`back.PNG`} sx={{"margin": ["1em"], "height": "8em", "width": "100%", "alignItems": "start", "borderRadius": "10px", "border": "10px"}}/>
-  <ChakraImage alt={`logo de argentina`} src={`/argentina1.JPG`} sx={{"margin": ["1em"], "height": "8em", "width": "100%", "alignItems": "start", "borderRadius": "10px", "border": "10px"}}/>
+  <ChakraImage alt={`logo de programar`} src={`back.png`} sx={{"margin": ["1em"], "height": "8em", "width": "100%", "alignItems": "start", "borderRadius": "10px", "border": "10px"}}/>
+  <ChakraImage alt={`logo de argentina`} src={`/argentina1.jpg`} sx={{"margin": ["1em"], "height": "8em", "width": "100%", "alignItems": "start", "borderRadius": "10px", "border": "10px"}}/>
 </HStack>
 </Box>
 </VStack>
