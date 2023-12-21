@@ -26,15 +26,15 @@ def Links () -> rx.Component :
         title ("Contacto"),
         Links_button("Contacto",
                      "Establece contacto conmigo de manera rapida", 
-                    "https://wa.me/2314615853",
+                    "tel:+2314615853",
                     "/iconos/llamar.svg"),
         Links_button("Email", 
                      "Enviame un correo", 
-                     "yakoirag@gmail.com",
+                     "mailto: yakoirag@gmail.com",
                      "/iconos/correo.svg"),
         Links_button("Whatsapp", 
                      "Enviame un mensaje ante cualquier consulta", 
-                     "https://wa.me/2314615853" ,
+                     "https://wa.me/542314615853" ,
                      "/iconos/whatsapp.svg"),
 
             

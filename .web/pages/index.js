@@ -148,7 +148,7 @@ export default function Component() {
   <Heading size={`md`} sx={{"width": "100%", "paddingTop": ["1em"], "size": "lg", "color": "#FFFFFF"}}>
   {`Contacto`}
 </Heading>
-  <Link as={NextLink} href={`https://wa.me/2314615853`} isExternal={true} sx={{"size": ["1em"], "target": "_blank", "width": "100%", "textDecoration": "none", "_hover": {}}}>
+  <Link as={NextLink} href={`tel:+2314615853`} isExternal={true} sx={{"size": ["1em"], "target": "_blank", "width": "100%", "textDecoration": "none", "_hover": {}}}>
   <Button sx={{"width": "100%", "height": "100%", "padding": ["0.5em"], "borderRadius": ["2em"], "backgroundColor": ["#333333"], "color": "#CCCCCC", "whiteSpace": "normal", "textAlign": "start", "alignItems": "start", "_hover": {"backgroundColor": ["#05183c"]}}}>
   <HStack sx={{"width": "100%"}}>
   <ChakraImage alt={`Contacto`} src={`/iconos/llamar.svg`} sx={{"width": ["2em"], "height": ["2em"], "margin": ["0.7em"]}}/>
@@ -163,7 +163,7 @@ export default function Component() {
 </HStack>
 </Button>
 </Link>
-  <Link as={NextLink} href={`yakoirag@gmail.com`} isExternal={true} sx={{"size": ["1em"], "target": "_blank", "width": "100%", "textDecoration": "none", "_hover": {}}}>
+  <Link as={NextLink} href={`mailto: yakoirag@gmail.com`} isExternal={true} sx={{"size": ["1em"], "target": "_blank", "width": "100%", "textDecoration": "none", "_hover": {}}}>
   <Button sx={{"width": "100%", "height": "100%", "padding": ["0.5em"], "borderRadius": ["2em"], "backgroundColor": ["#333333"], "color": "#CCCCCC", "whiteSpace": "normal", "textAlign": "start", "alignItems": "start", "_hover": {"backgroundColor": ["#05183c"]}}}>
   <HStack sx={{"width": "100%"}}>
   <ChakraImage alt={`Email`} src={`/iconos/correo.svg`} sx={{"width": ["2em"], "height": ["2em"], "margin": ["0.7em"]}}/>
@@ -178,7 +178,7 @@ export default function Component() {
 </HStack>
 </Button>
 </Link>
-  <Link as={NextLink} href={`https://wa.me/2314615853`} isExternal={true} sx={{"size": ["1em"], "target": "_blank", "width": "100%", "textDecoration": "none", "_hover": {}}}>
+  <Link as={NextLink} href={`https://wa.me/542314615853`} isExternal={true} sx={{"size": ["1em"], "target": "_blank", "width": "100%", "textDecoration": "none", "_hover": {}}}>
   <Button sx={{"width": "100%", "height": "100%", "padding": ["0.5em"], "borderRadius": ["2em"], "backgroundColor": ["#333333"], "color": "#CCCCCC", "whiteSpace": "normal", "textAlign": "start", "alignItems": "start", "_hover": {"backgroundColor": ["#05183c"]}}}>
   <HStack sx={{"width": "100%"}}>
   <ChakraImage alt={`Whatsapp`} src={`/iconos/whatsapp.svg`} sx={{"width": ["2em"], "height": ["2em"], "margin": ["0.7em"]}}/>
